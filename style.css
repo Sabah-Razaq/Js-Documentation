@@ -1,0 +1,156 @@
+
+
+.body {
+    font-family: arial;
+}
+
+.nav_link li a,
+.nav_link header  {
+    padding:10px;
+    display: block;
+    width: 300px;
+    font-size: 20px;
+    padding-left: 40px; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; 
+    text-decoration: none;
+    list-style-type: none;
+    border-style: groove;
+
+    border: 1px solid rgb(105, 103, 103);
+    color: rgb(59, 58, 58);
+  }
+
+
+
+.nav_link>li {
+    list-style-type: none;
+}
+
+.nav_link>li>a {
+    text-decoration: none;
+}
+
+.nav_link{
+    padding: 0;
+    margin: 0;
+    }
+
+.Introduction {
+margin: 40px;
+position: absolute;
+left: 400px;
+top: 20px;
+}
+  
+.What_You_Should_Already_Know {
+    margin: 40px;
+    position: absolute;
+    left: 400px;
+    top: 330px;
+}
+
+  
+.JavaScript_And_Java {
+    margin: 40px;
+    position: absolute;
+    left: 400px;
+    top: 510px;
+}
+
+  
+.Hello_World{
+    margin: 40px;
+    position: absolute;
+    left: 400px;
+    top: 830px;
+}
+
+  
+.Variables {
+    margin: 40px;
+    position: absolute;
+    left: 400px;
+    top: 1010px;
+}
+
+  
+.Declaring_Variables{
+    margin: 40px;
+    position: absolute;
+    left: 400px;
+    top: 1220px;
+}
+
+.Variable_Scope {
+    margin: 40px;
+    position: absolute;
+    left: 400px;
+    top: 1720px;
+}
+
+.Global_Variables {
+    margin: 40px;
+    position: absolute;
+    left: 400px;
+    top: 2010px;
+}
+
+.Constants {
+    margin: 40px;
+    position: absolute;
+    left: 400px;
+    top: 2190px;
+}
+
+.Data_Types {
+    margin: 40px;
+    position: absolute;
+    left: 400px;
+    top: 2570px;
+}
+
+.If_Else_Statement {
+    margin: 40px;
+    position: absolute;
+    left: 400px;
+    top: 2920px;
+}
+
+.While_Statement  {
+    margin: 40px;
+    position: absolute;
+    left: 400px;
+    top: 3550px;
+}
+
+.Function_Declarations {
+    margin: 40px;
+    position: absolute;
+    left: 400px;
+    top: 4150px;
+}
+
+.Reference {
+    margin: 40px;
+    position: absolute;
+    left: 400px;
+    top: 4510px;
+}
+
+.h1, h2, h3, h4, h5, h6 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.code {
+    background-color: #eee;
+    border-radius: 3px;
+    font-family: courier, monospace;
+    padding: 5px 25px;
+    width: 960px;
+    height: 50px;
+}
+
+ 
+
