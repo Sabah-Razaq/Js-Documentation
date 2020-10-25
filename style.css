@@ -1,0 +1,152 @@
+body {
+    font-family: arial;
+    font-size: 12px;
+}
+
+.main-doc {
+    line-height: 20px;
+}
+
+#menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 380px; 
+    overflow: auto;
+    height: fit-content;
+    border-style: groove;
+    border: 1px solid rgb(105, 103, 103);
+    color: rgb(59, 58, 58);
+}
+
+#menubar {
+    display: none;
+}
+
+.side-nav {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.main-heading {
+    padding: 15px 0;
+    padding-left: 35px;
+    border-bottom: 2px solid rgb(105, 103, 103);
+}
+
+.main-heading a {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+
+.side-nav li {
+    position: relative;
+    list-style: none;
+    display: block;
+    padding-left: 35px;
+    border-bottom: 2px solid rgb(105, 103, 103);
+}
+
+.side-nav li a {
+    line-height: 45px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    color: #000000;
+}
+
+.side-nav li:last-child {
+   border: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.code {
+    background-color: #eee;
+    font-family: courier, monospace;
+    padding-left: 3%;
+    padding-right: 33%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-right: 5%;
+}
+
+p, li, code {
+    color: #333030;
+}
+
+
+@media only screen and (min-width:581px) {
+    #menu {
+        margin-left: 0!important;
+    }
+
+    #main { 
+        margin-left: 420px!important;
+        margin-top: 3%;
+    }
+}
+
+@media only screen and (max-width:580px) {
+    #menu-icon {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        margin-top: -10px;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+
+    #menu-icon.active { 
+        margin-top: -12px;
+    }
+
+    #menu-icon span {
+        border: 2px solid #4FDBE9;
+        width: 26px;
+        margin-bottom: 4px;
+        display: block;
+        -webkit-transition: transform .2s;
+        transition: transform .2s;
+    }
+
+    #menu-icon.active .first {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        margin-top: 10px;
+    }
+
+    #menu-icon.active .second {
+        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+        position: relative;
+        top: -8px;
+    }
+
+    #menu-icon.active .third {
+        display: none;
+    }
+
+    #menu {
+        margin-left: -220px;
+        border: none;
+    }
+
+    #main {
+        margin-left: 0;
+    }
+
+    .side-nav li, .main-heading a, .main-heading {
+        border: none;
+        display: none;
+    }
+}
